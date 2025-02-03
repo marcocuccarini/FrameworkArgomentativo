@@ -64,7 +64,7 @@ def sort_matrix(KB, KB_sim):
 
 
 
-def max_method(KB_sort, KB_sim, thereshold):
+def max_method(KB_sort, KB_sim, id_list, thereshold):
 
 	max_sim=0
 
@@ -80,15 +80,15 @@ def max_method(KB_sort, KB_sim, thereshold):
 
 	if max_sim < thereshold:
 
-		return [False,index_option]
+		return [False,id_list[index_option]]
 
 	else:
 
-		return [True,index_option]
+		return [True,id_list[index_option]]
 
 
 
-def argument_classification_ms(model, user_argument, KB, thereshold=0.8):
+def argument_classification_ms(model, user_argument, KB, id_list, thereshold=0.8):
 
 
 	KB_enc, user_arg_enc = text_encoder(model, user_argument, KB)
@@ -100,7 +100,7 @@ def argument_classification_ms(model, user_argument, KB, thereshold=0.8):
 	KB_sort = sort_matrix(KB, KB_sim)
 
 
-	return max_method(KB_sort, KB_sim, thereshold)
+	return max_method(KB_sort, KB_sim, id_list, thereshold)
 
 
 def extract_json(path):
@@ -158,7 +158,7 @@ if __name__ == "__main__":
 
 	thereshold=0.8
 
-	print(argument_classification_ms(BERT_Model, user_argument, KB, thereshold))
+	print(argument_classification_ms(BERT_Model, user_argument, KB, id_list, thereshold))
 
 
 
