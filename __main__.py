@@ -8,15 +8,15 @@ import numpy as np
 def text_encoder(model, user_arg, KB):
 
 
-	KB_enc=np.zeros([len(KB),len(KB[0])])
+	KB_enc=[]
 
 	for i in range(len(KB)):
-		for j in range(len(KB[i])):
 
-			KB_enc[i][j] = model.text_embedding(KB[i][j])
+		KB_enc.append(model.text_embedding(KB[i]))
 
 	user_arg_enc=model.text_embedding(user_argument)
 
+	
 	return KB_enc, user_arg_enc
 
 
@@ -25,14 +25,26 @@ def text_encoder(model, user_arg, KB):
 #function that evaliate the similarity between a vector and a matrix of vector
 
 
-def similarity_extraction(KB_enc, user_arg_enc):
+def similarity_extraction(user_arg_enc, KB_enc):
 
-	KB_sim=np.zeros([len(KB_enc),len(KB_enc[0])])
+	KB_sim=[]
+
+	# to normilize the similarity I consider the value tha assume when the are two equal texts
+
+	norm_term=np.dot(user_arg_enc,user_arg_enc)
+
 
 	for i in range(len(KB_enc)):
+
+		temp=[]
+
 		for j in range(len(KB_enc[i])):
 
-			KB_sim[i][j] = np.dot(KB_enc[i][j],user_arg_enc)
+			#calcolo la similarity con il dot product normalizzandolo
+
+			temp.append(np.dot(user_arg_enc,KB_enc[i][j])/norm_term)
+
+		KB_sim.append(temp)	
 
 	return KB_sim
 
@@ -64,15 +76,15 @@ def max_method(KB_sort, KB_sim, thereshold):
 
 			max_sim = KB_sim[i][0]
 
-			index=i
+			index_option=i
 
 	if max_sim < thereshold:
 
-		return index
+		return [False,index_option]
 
 	else:
 
-		return "other"
+		return [True,index_option]
 
 
 
@@ -81,26 +93,62 @@ def argument_classification_ms(model, user_argument, KB, thereshold=0.8):
 
 	KB_enc, user_arg_enc = text_encoder(model, user_argument, KB)
 
-	KB_sim = similarity_extraction(KB_enc, user_arg_enc)
+
+	KB_sim = similarity_extraction(user_arg_enc, KB_enc)
+
 
 	KB_sort = sort_matrix(KB, KB_sim)
 
 
-	return max_method(KB_sort, KB_sim)
+	return max_method(KB_sort, KB_sim, thereshold)
 
+
+def extract_json(path):
+
+	 with open(path) as f:
+
+	 	d = json.load(f)
+	 	return d
+
+def from_json_to_ll(json_file):
+
+	KB=[]
+
+	id_list=[]
+
+	for i in json_file:
+
+		temp=[]
+
+		id_list.append(i['id'])
+		
+		for j in i['phrases']:
+
+			temp.append(j)
+
+		KB.append(temp)
+
+	return id_list, KB
 
 
 
 
 if __name__ == "__main__":
 
+	import json
+
+	json_file=extract_json("dataset/KB.json")
+
+
+	id_list, KB = from_json_to_ll(json_file)
+
 
 	BERT_Model = BERT_Model("multi-qa-mpnet-base-dot-v1", SentenceTransformer)
 
-	user_argument= "Blablabla bullshit"
+	user_argument= "My name is"
 
 
-	KB=[["Ciao sono Marco", "Come stai?", "Io sto bene"],['Blablabla','Dog,dog,dog',"hhhhhhh"],["ppso","sjjsnd"]]
+	#KB=[["My name is", "Come stai?", "Io sto bene"],['Blablabla','Dog,dog,dog',"hhhhhhh"],["ppso","sjjsnd"]]
 
 	print(argument_classification_ms(BERT_Model, user_argument, KB))
 

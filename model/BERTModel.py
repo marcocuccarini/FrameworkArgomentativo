@@ -15,6 +15,6 @@ class BERT_Model:
   def text_embedding(self, text):
 
 
-    return self.model.encode(text, convert_to_tensor=False)[0]
+    return self.model.encode(text, convert_to_tensor=False)
 
 

@@ -1,0 +1,16 @@
+[
+  {
+    "id": 2,
+    "phrases": [
+      "This is the first phrase",
+      "This is the second phrase"
+    ]
+  },
+  {
+    "id": 5,
+    "phrases": [
+      "Another phrase here",
+      "Additional sentence for example"
+    ]
+  }
+]
