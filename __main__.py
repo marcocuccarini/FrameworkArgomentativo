@@ -137,20 +137,28 @@ if __name__ == "__main__":
 
 	import json
 
+	#take in input the json file
+
 	json_file=extract_json("dataset/KB.json")
 
+	#convert the json file into a list of lists
 
 	id_list, KB = from_json_to_ll(json_file)
 
 
+	#calling the object BERT encoder
+
 	BERT_Model = BERT_Model("multi-qa-mpnet-base-dot-v1", SentenceTransformer)
+
+	#user argument (will be passed using paramethers)
 
 	user_argument= "My name is"
 
+	# thereshold of the same semantic meaning
 
-	#KB=[["My name is", "Come stai?", "Io sto bene"],['Blablabla','Dog,dog,dog',"hhhhhhh"],["ppso","sjjsnd"]]
+	thereshold=0.8
 
-	print(argument_classification_ms(BERT_Model, user_argument, KB))
+	print(argument_classification_ms(BERT_Model, user_argument, KB, thereshold))
 
 
 
