@@ -154,7 +154,7 @@ if __name__ == "__main__":
 
 	user_argument= "My name is"
 
-	# thereshold of the same semantic meaning
+	# thereshold of the semantic meaning
 
 	thereshold=0.8
 
