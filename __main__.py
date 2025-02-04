@@ -133,7 +133,18 @@ def from_json_to_ll(json_file):
 
 	return id_list, KB
 
+def from_json_to_ll2(documents):
+	KB=[]
+	id_list=[]
 
+	for i in documents:
+
+		for j in i['arguments']:
+
+			id_list.append(j['id'])
+			KB.append(j['sentences'])
+
+	return id_list, KB
 
 
 if __name__ == "__main__":
@@ -154,30 +165,20 @@ if __name__ == "__main__":
 	documents = collection.find()
 
 	# Iterazione e stampa di ogni documento
-	print("Documenti trovati nella collezione:")
 
-	KB=[]
-	id_list=[]
 
-	for i in documents:
-
-		for j in i['arguments']:
-
-			id_list.append(j['id'])
-			KB.append(j['sentences'])
 
 	'''import json
 
 	#take in input the json file
 
-	json_file=extract_json("dataset/KB.json")
+	json_file=extract_json("dataset/KB.json")'''
+
+
 
 	#convert the json file into a list of lists
 
-	id_list, KB = from_json_to_ll(json_file)'''
-
-
-
+	id_list, KB = from_json_to_ll2(documents)
 
 
 	#calling the object BERT encoder
