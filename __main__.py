@@ -2,7 +2,8 @@
 from model.BERTModel import BERT_Model
 from sentence_transformers import SentenceTransformer, util
 import numpy as np
-
+import pymongo
+from bson import ObjectId
 #function that encode the textual arguemnt of the use and KB
 
 def text_encoder(model, user_arg, KB):
@@ -134,6 +135,19 @@ def from_json_to_ll(json_file):
 
 
 if __name__ == "__main__":
+
+	test_client = pymongo.MongoClient("mongodb://localhost:27017/")
+	test_db = test_client['Database_Argumentation']
+	mycol = test_db["Data/Arguments"]
+
+	document_id = "679d0d81801d0eb9042cf46c"  # Se è una stringa
+	document_id = ObjectId("679d0d81801d0eb9042cf46c")
+	result = mycol.find_one(
+	    {"_id": document_id},  # Filtra per _id
+	    {"arguments": 1, "_id": 0}  # Include solo "arguments", esclude "_id"
+	)
+
+	print(result)
 
 	import json
 

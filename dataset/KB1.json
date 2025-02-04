@@ -1,0 +1,344 @@
+[
+  {
+    "_id": "679d0d81801d0eb9042cf46c",
+    "name": "Electric Vehicles",
+    "root": "0",
+    "arguments": [
+      {
+        "id": "0",
+        "sentences": [
+          "Electric vehicles (EVs) are more environmentally friendly than traditional gas-powered vehicles.",
+          "EVs reduce air pollution and greenhouse gas emissions."
+        ],
+        "acc": true
+      },
+      {
+        "id": "1",
+        "sentences": [
+          "The cost of EVs has decreased significantly in recent years, making them more accessible.",
+          "Government incentives and rebates further lower the price of electric vehicles."
+        ],
+        "acc": true
+      },
+      {
+        "id": "2",
+        "sentences": [
+          "Battery technology for EVs continues to improve, increasing their range and efficiency.",
+          "Long-range electric vehicles are becoming more practical for everyday use."
+        ],
+        "acc": true
+      },
+      {
+        "id": "3",
+        "sentences": [
+          "The infrastructure for charging electric vehicles is expanding globally.",
+          "Increased availability of charging stations makes owning an EV more convenient."
+        ],
+        "acc": true
+      },
+      {
+        "id": "4",
+        "sentences": [
+          "Electric vehicles contribute to energy diversification and reduce dependence on fossil fuels.",
+          "The adoption of EVs can help countries achieve energy security."
+        ],
+        "acc": true
+      },
+      {
+        "id": "5",
+        "sentences": [
+          "Electric vehicles still face challenges regarding battery disposal and recycling.",
+          "The environmental impact of mining for materials such as lithium and cobalt needs to be addressed."
+        ],
+        "acc": false
+      },
+      {
+        "id": "6",
+        "sentences": [
+          "The limited driving range of some electric vehicles makes them unsuitable for long road trips.",
+          "Some people may not be willing to sacrifice range for environmental benefits."
+        ],
+        "acc": false
+      },
+      {
+        "id": "7",
+        "sentences": [
+          "Charging an electric vehicle can be time-consuming, especially if the charging infrastructure is not well-developed.",
+          "Fast-charging technology still needs to be widely implemented."
+        ],
+        "acc": false
+      },
+      {
+        "id": "8",
+        "sentences": [
+          "Electric vehicles are often seen as a luxury option due to their higher initial purchase price.",
+          "While prices are decreasing, EVs may still be out of reach for lower-income households."
+        ],
+        "acc": false
+      },
+      {
+        "id": "9",
+        "sentences": [
+          "Transitioning to an all-electric fleet of vehicles would require significant changes to the energy grid.",
+          "Without sufficient renewable energy generation, electric vehicles could still rely on fossil fuels for electricity."
+        ],
+        "acc": false
+      }
+    ],
+    "attacks": [
+      {
+        "source": "5",
+        "target": "0",
+        "weight": 800
+      },
+      {
+        "source": "6",
+        "target": "1",
+        "weight": 600
+      },
+      {
+        "source": "7",
+        "target": "3",
+        "weight": 500
+      },
+      {
+        "source": "8",
+        "target": "2",
+        "weight": 400
+      },
+      {
+        "source": "9",
+        "target": "4",
+        "weight": 700
+      }
+    ],
+    "supports": [
+      {
+        "source": "0",
+        "target": "1",
+        "weight": 900
+      },
+      {
+        "source": "1",
+        "target": "2",
+        "weight": 850
+      },
+      {
+        "source": "2",
+        "target": "3",
+        "weight": 950
+      },
+      {
+        "source": "3",
+        "target": "4",
+        "weight": 800
+      },
+      {
+        "source": "4",
+        "target": "0",
+        "weight": 750
+      }
+    ]
+  },
+  {
+    "_id": "0000000005",
+    "name": "Renewable Energy",
+    "root": "0",
+    "arguments": [
+      {
+        "id": "0",
+        "sentences": [
+          "Renewable energy sources are playing an increasingly important role in global power production.",
+          "Wind and solar installations have doubled over the past decade.",
+          "Investments in clean energy have surged due to climate change concerns."
+        ],
+        "acc": false
+      },
+      {
+        "id": "1",
+        "sentences": [
+          "The automotive industry is undergoing a rapid transformation with the advent of electric vehicles.",
+          "Major manufacturers are shifting their focus towards sustainable mobility solutions.",
+          "Government policies are increasingly supportive of eco-friendly transportation alternatives."
+        ],
+        "acc": false
+      },
+      {
+        "id": "2",
+        "sentences": [
+          "Urban areas are experiencing significant changes due to smart city initiatives.",
+          "Innovative technologies are being integrated into infrastructure to improve efficiency.",
+          "Public-private partnerships are driving these developments."
+        ],
+        "acc": false
+      },
+      {
+        "id": "3",
+        "sentences": [
+          "Healthcare technology is evolving with the use of telemedicine and AI diagnostics.",
+          "Remote consultations have become more prevalent during the COVID-19 pandemic.",
+          "Patients benefit from increased access to specialised medical advice."
+        ],
+        "acc": false
+      },
+      {
+        "id": "4",
+        "sentences": [
+          "The global economy is gradually recovering from recent downturns.",
+          "Fiscal policies and stimulus packages are designed to boost growth.",
+          "International trade is resuming as restrictions are lifted."
+        ],
+        "acc": false
+      },
+      {
+        "id": "5",
+        "sentences": [
+          "Advancements in information technology are revolutionising business operations.",
+          "Cloud computing and big data analytics have transformed decision-making processes.",
+          "Companies are increasingly relying on digital solutions for operational efficiency."
+        ],
+        "acc": false
+      },
+      {
+        "id": "6",
+        "sentences": [
+          "Environmental sustainability is at the forefront of public policy debates.",
+          "Recycling and waste management initiatives are gaining traction worldwide.",
+          "Communities are adopting practices that minimise ecological footprints."
+        ],
+        "acc": false
+      },
+      {
+        "id": "7",
+        "sentences": [
+          "Educational institutions are integrating technology to enhance learning experiences.",
+          "E-learning platforms have become essential tools for remote education.",
+          "Interactive digital content is making education more engaging and accessible."
+        ],
+        "acc": false
+      },
+      {
+        "id": "8",
+        "sentences": [
+          "Space exploration continues to inspire scientific advancements and international cooperation.",
+          "Private companies are now key players in launching satellites and exploring beyond Earth.",
+          "Innovative missions are being planned to further our understanding of the cosmos."
+        ],
+        "acc": false
+      },
+      {
+        "id": "9",
+        "sentences": [
+          "Financial markets are adapting to a new era of digital transactions.",
+          "Cryptocurrencies and blockchain technology are reshaping traditional banking systems.",
+          "Regulatory frameworks are evolving to address the challenges of digital finance."
+        ],
+        "acc": false
+      }
+    ],
+    "attacks": [
+      {
+        "source": "0",
+        "target": "1",
+        "weight": 120
+      },
+      {
+        "source": "1",
+        "target": "2",
+        "weight": 130
+      },
+      {
+        "source": "2",
+        "target": "3",
+        "weight": 140
+      },
+      {
+        "source": "3",
+        "target": "4",
+        "weight": 150
+      },
+      {
+        "source": "4",
+        "target": "5",
+        "weight": 160
+      },
+      {
+        "source": "5",
+        "target": "6",
+        "weight": 170
+      },
+      {
+        "source": "6",
+        "target": "7",
+        "weight": 180
+      },
+      {
+        "source": "7",
+        "target": "8",
+        "weight": 190
+      },
+      {
+        "source": "8",
+        "target": "9",
+        "weight": 200
+      },
+      {
+        "source": "9",
+        "target": "0",
+        "weight": 210
+      }
+    ],
+    "supports": [
+      {
+        "source": "1",
+        "target": "0",
+        "weight": 220
+      },
+      {
+        "source": "2",
+        "target": "1",
+        "weight": 230
+      },
+      {
+        "source": "3",
+        "target": "2",
+        "weight": 240
+      },
+      {
+        "source": "4",
+        "target": "3",
+        "weight": 250
+      },
+      {
+        "source": "5",
+        "target": "4",
+        "weight": 260
+      },
+      {
+        "source": "6",
+        "target": "5",
+        "weight": 270
+      },
+      {
+        "source": "7",
+        "target": "6",
+        "weight": 280
+      },
+      {
+        "source": "8",
+        "target": "7",
+        "weight": 290
+      },
+      {
+        "source": "9",
+        "target": "8",
+        "weight": 300
+      },
+      {
+        "source": "0",
+        "target": "9",
+        "weight": 310
+      }
+    ]
+  }
+]
