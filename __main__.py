@@ -4,6 +4,8 @@ from sentence_transformers import SentenceTransformer, util
 import numpy as np
 import pymongo
 from bson import ObjectId
+
+from configuration.configuration import * 
 #function that encode the textual arguemnt of the use and KB
 
 def text_encoder(model, user_arg, KB):
@@ -136,22 +138,35 @@ def from_json_to_ll(json_file):
 
 if __name__ == "__main__":
 
-	client = pymongo.MongoClient("mongodb://localhost:27017/")  # Cambia l'URL se il server è remoto
+
+	print("user",USERNAME)
+
+
+	print("password",PASSWORD)
+
+	client = pymongo.MongoClient(DB_URL)  # Cambia l'URL se il server è remoto
 
 	# Selezione del database e della collezione
-	db = client["Data"]
-	collection = db["Arguments"]
+	db = client[DB]
+	collection = db[COL]
 
 	# Lettura di tutti i documenti nella collezione
 	documents = collection.find()
 
 	# Iterazione e stampa di ogni documento
 	print("Documenti trovati nella collezione:")
-	for doc in documents:
-	    print(doc)
 
+	KB=[]
+	id_list=[]
 
-	import json
+	for i in documents:
+
+		for j in i['arguments']:
+
+			id_list.append(j['id'])
+			KB.append(j['sentences'])
+
+	'''import json
 
 	#take in input the json file
 
@@ -159,7 +174,10 @@ if __name__ == "__main__":
 
 	#convert the json file into a list of lists
 
-	id_list, KB = from_json_to_ll(json_file)
+	id_list, KB = from_json_to_ll(json_file)'''
+
+
+
 
 
 	#calling the object BERT encoder
