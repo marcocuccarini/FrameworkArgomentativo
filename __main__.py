@@ -136,18 +136,20 @@ def from_json_to_ll(json_file):
 
 if __name__ == "__main__":
 
-	test_client = pymongo.MongoClient("mongodb://localhost:27017/")
-	test_db = test_client['Database_Argumentation']
-	mycol = test_db["Data/Arguments"]
+	client = pymongo.MongoClient("mongodb://localhost:27017/")  # Cambia l'URL se il server è remoto
 
-	document_id = "679d0d81801d0eb9042cf46c"  # Se è una stringa
-	document_id = ObjectId("679d0d81801d0eb9042cf46c")
-	result = mycol.find_one(
-	    {"_id": document_id},  # Filtra per _id
-	    {"arguments": 1, "_id": 0}  # Include solo "arguments", esclude "_id"
-	)
+	# Selezione del database e della collezione
+	db = client["Data"]
+	collection = db["Arguments"]
 
-	print(result)
+	# Lettura di tutti i documenti nella collezione
+	documents = collection.find()
+
+	# Iterazione e stampa di ogni documento
+	print("Documenti trovati nella collezione:")
+	for doc in documents:
+	    print(doc)
+
 
 	import json
 
