@@ -40,8 +40,9 @@ if __name__ == "__main__":
 
 	json_file_encoded = encode_json(BERT_Model, json_file)
 
-	with open("sample.json", "w") as outfile:
-    	outfile.write(json_file_encoded)
+	with open("data.json", "w") as json_file:
+		json.dump(data, json_file_encoded, indent=4)
+
 
 
 
