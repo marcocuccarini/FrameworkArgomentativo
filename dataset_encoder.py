@@ -1,79 +1,38 @@
-
 from model.BERTModel import BERT_Model
-from sentence_transformers import SentenceTransformer, util
-import numpy as np
+from sentence_transformers import SentenceTransformer
 import json
-
-from configuration.configuration import * 
-#function that encode the textual arguemnt of the use and KB
+import numpy as np
 
 def encode_json(model, json_file):
+    """Encodes the textual arguments using the provided model."""
+    for item in json_file:
+        for argument in item.get('arguments', []):
+            # Convert ndarray to list for JSON serialization
+            argument['sentences'] = model.text_embedding(argument['sentences']).tolist()
 
-	for i in range(len(json_file)):
-		for j in range(len(json_file[i]['arguments'])):
-
-			json_file[i]['arguments'][j]['sentences'] = model.text_embedding(json_file[i]['arguments'][j]['sentences'])
-
-	return json_file
-
-
-
+    return json_file
 
 def extract_json(path):
+    """Extracts JSON data from a given file path."""
+    with open(path, 'r', encoding='utf-8') as f:
+        return json.load(f)
 
-	 with open(path) as f:
-
-	 	d = json.load(f)
-	 	return d
-
-
+def save_json(data, path):
+    """Saves JSON data to a specified file path."""
+    with open(path, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=4, ensure_ascii=False)
 
 if __name__ == "__main__":
+    # Load the dataset
+    json_file = extract_json("dataset/KB1.json")
 
-	# Lettura di tutti i documenti nella collezi
+    # Initialize the BERT model
+    bert_model = BERT_Model("multi-qa-mpnet-base-dot-v1", SentenceTransformer)
 
-	json_file = extract_json("dataset/KB1.json")
+    # Encode the textual arguments
+    json_file_encoded = encode_json(bert_model, json_file)
 
+    # Save the encoded data
+    save_json(json_file_encoded, "data.json")
 
-	BERT_Model = BERT_Model("multi-qa-mpnet-base-dot-v1", SentenceTransformer)
-
-
-	json_file_encoded = encode_json(BERT_Model, json_file)
-
-	with open("data.json", "w") as json_file:
-		json.dump(json_file_encoded, json_file , indent=4)
-
-
-
-
-
-
-
-	#convert the json file into a list of lists
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    print("Encoding completed and saved to data.json")
