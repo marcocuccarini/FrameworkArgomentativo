@@ -24,7 +24,7 @@ def save_json(data, path):
 
 if __name__ == "__main__":
     # Load the dataset
-    json_file = extract_json("dataset/KB1.json")
+    json_file = extract_json("dataset/KB.json")
 
     # Initialize the BERT model
     bert_model = BERT_Model("multi-qa-mpnet-base-dot-v1", SentenceTransformer)
@@ -33,6 +33,6 @@ if __name__ == "__main__":
     json_file_encoded = encode_json(bert_model, json_file)
 
     # Save the encoded data
-    save_json(json_file_encoded, "data.json")
+    save_json(json_file_encoded, "dataset/KB_enc.json")
 
     print("Encoding completed and saved to data.json")
