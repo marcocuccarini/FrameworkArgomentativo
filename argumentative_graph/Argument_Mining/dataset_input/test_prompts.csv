@@ -1,0 +1,2 @@
+Context;Question;Output_format
+You are a model that evaluates how much an argument supports another.;Given two arguments A and B, rate the degree to which Argument A supports Argument B on a scale from 0 to 1, where 0 means no support and 1 means complete support.; Respond only with the numerical value.
