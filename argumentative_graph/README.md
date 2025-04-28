@@ -1,14 +1,13 @@
 # Argument_Graph_Corpus
 
-# Parte della pagina che gestisce la elaborazione dei dati
-
-# Directory Argumetation_Graph contains the dataframe splitter for deep level
-# DataframeToJson.ipynb convert the dataframe present in ArguemtativeGraph to a json file arg_dic.json
-# CheckCiclePresence.py check if in the file arg_dic.json are presents cycle
-# Visulization.png show the argumentation-tree
-# Dictionary tree is used to save the id of the differents tree present in the dataset
-
-
+# prompt_classes.py classes for generation of the prompt
+# llm classes classes for the LLm the evalaute the level of the suport beween two sentences
+# dataset_classes classes that handle the dataset
+# dataset_input:
+#	/test_prompts prompt used to request to LLM the simialrity between two argument
+#	/samples_fewshoot few shot used to provide to the model some samples
+#
+# ExtractSupports.ipynb -> jupyter notebook that provide in input the arg_dict.json and arg_tree.json provide back the arg
 
 
 https://lisanka93.github.io/img/paper6.pdf
