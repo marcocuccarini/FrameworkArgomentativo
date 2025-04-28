@@ -2,7 +2,6 @@
 from model.T5Model import T5_Model
 from sentence_transformers import SentenceTransformer, util
 import numpy as np
-import pymongo
 from bson import ObjectId
 import random
 from configuration.configuration import * 
@@ -47,46 +46,40 @@ def sentence_augmentation(T5_Model, sentences, k, repetition_penalty=15.0, diver
 
 	return sentences
 
+def extract_json(path):
+    """Extracts JSON data from a given file path."""
+    with open(path, 'r', encoding='utf-8') as f:
+        return json.load(f)
+
+
 
 if __name__ == "__main__":
 
+	import json
 
-	print("user",USERNAME)
+	# Load the JSON file
+	arg_graph = extract_json("arg_dic.json")
 
+	# Initialize the T5 model
+	t5_model = T5_Model(MODEL, TOKENIZER, TOKEN)
 
-	print("password",PASSWORD)
+	# Iterate over the argument graph
+	for row in arg_graph:
+	    for argument in row['arguments']:
+	        # Perform sentence augmentation
+	        argument['sentences'] = sentence_augmentation(
+	            t5_model, 
+	            argument['sentences'], 
+	            k, 
+	            repetition_penalty, 
+	            diversity_penalty
+	        )
 
-	client = pymongo.MongoClient(DB_URL)  # Cambia l'URL se il server è remoto
-
-	# Selezione del database e della collezione
-	db = client[DB]
-	collection = db[COL]
-
-	# Lettura di tutti i documenti nella collezione
-	documents = collection.find()
-
-
-	#convert the json file into a list of lists
-
-	T5_Model= T5_Model(MODEL, TOKENIZER, TOKEN)
-
-	id_list, KB = json_extract(documents)
-
-
-	print(KB)
-	print(id_list)
+	# Save the updated arg_graph to a new JSON file
+	with open('arg_dic_supp_augmented.json', 'w', encoding='utf-8') as f:
+	    json.dump(arg_graph, f, ensure_ascii=False, indent=4)
 
 
-	for i in range(len(KB)):
-
-		KB[i]=sentence_augmentation(T5_Model, KB[0][i], k, repetition_penalty, diversity_penalty)
-
-
-
-
-
-	print(KB)
-	print(id_list)
 
 
 

@@ -81,17 +81,17 @@ print(sys.version)
 import ollama
 import pandas as pd
 from pathlib import Path
-from llms_classes import *
-from prompt_classes import *
-from dataset_classes import TextDataset
-from matrix_creation_classes import *
+from classes.llms_classes import *
+from classes.prompt_classes import *
+from classes.dataset_classes import TextDataset
+from classes.matrix_creation_classes import *
 
 
-text_dataset=TextDataset("/Users/marco/Documents/GitHub/FrameworkArgomentativo/argumentative_graph/Argument_Mining/dataset_input/test_text_class.csv")
+text_dataset=TextDataset("dataset_input/test_text_class.csv")
 
 text_dataset.filter_dataset_notclass()
 
-prompt=PromptCreation(False, "/Users/marco/Documents/GitHub/FrameworkArgomentativo/argumentative_graph/Argument_Mining/dataset_input/test_prompts.csv","/Users/marco/Documents/GitHub/FrameworkArgomentativo/argumentative_graph/Argument_Mining/dataset_input/samples_fewshot.csv")
+prompt=PromptCreation(False, "dataset_input/test_prompts.csv","dataset_input/samples_fewshot.csv")
 
 resulting_prompt=prompt.prompt_creation()
 
@@ -134,7 +134,7 @@ Dict["prev_id"] -> [{argument that attack the same id}]
 
 '''
 
-obj=triple_extraction("/Users/marco/Documents/GitHub/FrameworkArgomentativo/argumentative_graph/arg_dic.json")
+obj=triple_extraction("arg_dic.json")
 
 tupla=obj.extract_list_tuple()
 
@@ -143,7 +143,7 @@ tupla=obj.extract_list_tuple()
 #tutte le tuple, organizzate per id comun eattaccato, selezione anche il dizionario che mi tiene traccia dell'appartenznza
 # di tutti gli argument al relativo albero [indicato dall'indice da 0 a numero di alberi totale. 
 
-with open('/Users/marco/Documents/GitHub/FrameworkArgomentativo/argumentative_graph/dictionary_tree.json', 'r', encoding='utf-8') as file:
+with open('dictionary_tree.json', 'r', encoding='utf-8') as file:
     dict_tree = json.load(file)
 
 
@@ -172,7 +172,7 @@ with open('/Users/marco/Documents/GitHub/FrameworkArgomentativo/argumentative_gr
 
 #This function extract 
 import json
-with open('/Users/marco/Documents/GitHub/FrameworkArgomentativo/argumentative_graph/arg_dic.json', 'r', encoding='utf-8') as file:
+with open('arg_dic.json', 'r', encoding='utf-8') as file:
     dict_arg = json.load(file)
 
 

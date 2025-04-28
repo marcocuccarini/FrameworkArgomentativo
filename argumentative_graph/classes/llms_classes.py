@@ -7,7 +7,7 @@ import uuid
 from enum import Enum
 import datetime
 from dataclasses import dataclass, field
-from prompt_classes import ResponseType, LLMResponse
+from classes.prompt_classes import ResponseType, LLMResponse
 
 STC = Namespace("http://w3c.org/stc/core#")
 CI = Namespace("http://w3c.org/stc/copyright-infringement#")
