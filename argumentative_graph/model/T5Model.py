@@ -6,7 +6,7 @@ class T5_Model:
         self.tokenizer = AutoTokenizer.from_pretrained(tokenizer, token=token)
         self.model = AutoModelForSeq2SeqLM.from_pretrained(model_name, token=token)
 
-    def generate_title(self, text, repetition_penalty=15.0, diversity_penalty=1.0):
+    def generate_title(self, text, repetition_penalty=2.5, diversity_penalty=7.0):
         inputs = self.tokenizer(
             f'paraphraser: {text}',
             return_tensors="pt",
@@ -14,18 +14,21 @@ class T5_Model:
             truncation=True,
             max_length=64
         )
-        
+
         outputs = self.model.generate(
             inputs.input_ids,
-            num_beams=4,
-            num_beam_groups=4,  # Usa Group Beam Search
-            num_return_sequences = 1,
-            repetition_penalty= repetition_penalty,
-            diversity_penalty= diversity_penalty,
+            num_beams=20,  # Standard beam search (no group beam search)
+            num_beam_groups=2,  # Set to 1 to disable Group Beam Search
+            num_return_sequences=10,
+            repetition_penalty=repetition_penalty,
+            diversity_penalty=diversity_penalty,
             no_repeat_ngram_size=2,
             max_length=64,
-            temperature=0.8             # Controlla la casualità
-
+            do_sample=False,  # Enable sampling for diversity
+            temperature=1.2,
+            top_k=50,
+            top_p=0.9
         )
 
-        return self.tokenizer.batch_decode(outputs, skip_special_tokens=True)    
+        return self.tokenizer.batch_decode(outputs, skip_special_tokens=True)
+
