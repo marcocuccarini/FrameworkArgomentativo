@@ -34,7 +34,7 @@ def save_json(data, path):
 if __name__ == "__main__":
 
     # Load the dataset
-    json_file = extract_json("arg_dic_supp_augmented.json")
+    json_file = extract_json("arg_graph_supp_augmented.json")
 
     # Initialize the BERT model
     bert_model = BERT_Model("multi-qa-mpnet-base-dot-v1", SentenceTransformer)
@@ -43,6 +43,6 @@ if __name__ == "__main__":
     json_file_encoded = encode_json(bert_model, json_file)
 
     # Save the encoded data
-    save_json(json_file_encoded, "arg_dic_supp_augmented_enc.json")
+    save_json(json_file_encoded, "arg_graph_supp_augmented_enc.json")
 
     print("Encoding completed and saved to data.json")

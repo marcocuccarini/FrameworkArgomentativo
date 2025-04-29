@@ -134,7 +134,7 @@ Dict["prev_id"] -> [{argument that attack the same id}]
 
 '''
 
-obj=triple_extraction("arg_dic.json")
+obj=triple_extraction("arg_graph.json")
 
 tupla=obj.extract_list_tuple()
 
@@ -188,5 +188,5 @@ for i in supports:
             dict_arg['supports'] = supports[i]
 
             
-with open('arg_dic_supp.json', 'w') as f:
+with open('arg_graph_supp.json', 'w') as f:
     json.dump(dict_arg, f)

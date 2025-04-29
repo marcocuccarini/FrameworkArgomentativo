@@ -1,0 +1,2712 @@
+{
+    "0": [
+        {
+            "source": "Depth2_2",
+            "target": "Depth2_1",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_11",
+            "target": "Depth3_31",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_16",
+            "target": "Depth3_26",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_84",
+            "target": "Depth4_88",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1",
+            "target": "Depth5_2",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_57",
+            "target": "Depth5_60",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_62",
+            "target": "Depth5_63",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_87",
+            "target": "Depth5_89",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_111",
+            "target": "Depth5_113",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_174",
+            "target": "Depth5_175",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_289",
+            "target": "Depth5_292",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1603",
+            "target": "Depth5_1605",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1606",
+            "target": "Depth5_1605",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1603",
+            "target": "Depth5_1606",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1661",
+            "target": "Depth5_1660",
+            "weight": 1
+        }
+    ],
+    "1": [
+        {
+            "source": "Depth3_105",
+            "target": "Depth3_112",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_123",
+            "target": "Depth3_116",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_606",
+            "target": "Depth4_605",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_669",
+            "target": "Depth4_673",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_590",
+            "target": "Depth5_593",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_619",
+            "target": "Depth5_620",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_622",
+            "target": "Depth5_620",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_807",
+            "target": "Depth5_808",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_852",
+            "target": "Depth5_854",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_908",
+            "target": "Depth5_910",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_909",
+            "target": "Depth5_910",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_934",
+            "target": "Depth5_936",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_937",
+            "target": "Depth5_936",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_950",
+            "target": "Depth5_953",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_954",
+            "target": "Depth5_953",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_980",
+            "target": "Depth5_984",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1017",
+            "target": "Depth5_1015",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1015",
+            "target": "Depth5_1016",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1016",
+            "target": "Depth5_1017",
+            "weight": 1
+        }
+    ],
+    "2": [
+        {
+            "source": "Depth2_8",
+            "target": "Depth2_9",
+            "weight": 1
+        },
+        {
+            "source": "Depth2_10",
+            "target": "Depth2_9",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_141",
+            "target": "Depth3_124",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_133",
+            "target": "Depth3_124",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_161",
+            "target": "Depth3_144",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_144",
+            "target": "Depth3_151",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_151",
+            "target": "Depth3_161",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_156",
+            "target": "Depth3_165",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_764",
+            "target": "Depth4_766",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_766",
+            "target": "Depth4_767",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_804",
+            "target": "Depth4_801",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_801",
+            "target": "Depth4_799",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_799",
+            "target": "Depth4_804",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_835",
+            "target": "Depth4_831",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_862",
+            "target": "Depth4_860",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_918",
+            "target": "Depth4_910",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_917",
+            "target": "Depth4_918",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_921",
+            "target": "Depth4_927",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_960",
+            "target": "Depth5_957",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_958",
+            "target": "Depth5_957",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_990",
+            "target": "Depth5_991",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1020",
+            "target": "Depth5_1022",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1048",
+            "target": "Depth5_1044",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1044",
+            "target": "Depth5_1046",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1060",
+            "target": "Depth5_1061",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1063",
+            "target": "Depth5_1060",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1076",
+            "target": "Depth5_1077",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1089",
+            "target": "Depth5_1090",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1121",
+            "target": "Depth5_1119",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1119",
+            "target": "Depth5_1120",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1138",
+            "target": "Depth5_1134",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1149",
+            "target": "Depth5_1152",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1165",
+            "target": "Depth5_1167",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1201",
+            "target": "Depth5_1199",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1215",
+            "target": "Depth5_1217",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1237",
+            "target": "Depth5_1239",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1241",
+            "target": "Depth5_1272",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1273",
+            "target": "Depth5_1272",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1242",
+            "target": "Depth5_1243",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1244",
+            "target": "Depth5_1242",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1243",
+            "target": "Depth5_1244",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1265",
+            "target": "Depth5_1268",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1724",
+            "target": "Depth5_1725",
+            "weight": 1
+        }
+    ],
+    "3": [
+        {
+            "source": "Depth2_13",
+            "target": "Depth2_12",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_12",
+            "target": "Depth3_32",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_34",
+            "target": "Depth3_41",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_61",
+            "target": "Depth3_46",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_55",
+            "target": "Depth3_46",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_61",
+            "target": "Depth3_55",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_15",
+            "target": "Depth4_16",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_95",
+            "target": "Depth4_92",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_149",
+            "target": "Depth4_152",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_201",
+            "target": "Depth4_203",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_251",
+            "target": "Depth4_253",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_301",
+            "target": "Depth4_303",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_327",
+            "target": "Depth4_325",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_321",
+            "target": "Depth4_327",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_6",
+            "target": "Depth5_7",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_93",
+            "target": "Depth5_91",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_95",
+            "target": "Depth5_93",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_95",
+            "target": "Depth5_91",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_124",
+            "target": "Depth5_122",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_151",
+            "target": "Depth5_154",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_151",
+            "target": "Depth5_155",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_155",
+            "target": "Depth5_154",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_176",
+            "target": "Depth5_179",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_177",
+            "target": "Depth5_179",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_191",
+            "target": "Depth5_190",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_192",
+            "target": "Depth5_190",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_224",
+            "target": "Depth5_223",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_227",
+            "target": "Depth5_223",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_258",
+            "target": "Depth5_259",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_294",
+            "target": "Depth5_297",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_318",
+            "target": "Depth5_321",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_348",
+            "target": "Depth5_351",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_352",
+            "target": "Depth5_348",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_353",
+            "target": "Depth5_357",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_355",
+            "target": "Depth5_357",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_408",
+            "target": "Depth5_412",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_433",
+            "target": "Depth5_434",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_436",
+            "target": "Depth5_433",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_816",
+            "target": "Depth5_812",
+            "weight": 1
+        }
+    ],
+    "4": [
+        {
+            "source": "Depth2_15",
+            "target": "Depth2_16",
+            "weight": 1
+        },
+        {
+            "source": "Depth2_15",
+            "target": "Depth2_14",
+            "weight": 1
+        },
+        {
+            "source": "Depth2_14",
+            "target": "Depth2_16",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_82",
+            "target": "Depth3_64",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_73",
+            "target": "Depth3_64",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_85",
+            "target": "Depth3_93",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_101",
+            "target": "Depth3_85",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_357",
+            "target": "Depth4_349",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_349",
+            "target": "Depth4_353",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_403",
+            "target": "Depth4_404",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_405",
+            "target": "Depth4_403",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_404",
+            "target": "Depth4_405",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_486",
+            "target": "Depth4_484",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_523",
+            "target": "Depth4_526",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_528",
+            "target": "Depth4_526",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_562",
+            "target": "Depth4_561",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_564",
+            "target": "Depth4_562",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_461",
+            "target": "Depth5_460",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_498",
+            "target": "Depth5_495",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_518",
+            "target": "Depth5_515",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_515",
+            "target": "Depth5_516",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_610",
+            "target": "Depth5_613",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_660",
+            "target": "Depth5_661",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_663",
+            "target": "Depth5_660",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_693",
+            "target": "Depth5_697",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_693",
+            "target": "Depth5_694",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_721",
+            "target": "Depth5_720",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_748",
+            "target": "Depth5_747",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_846",
+            "target": "Depth5_844",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_843",
+            "target": "Depth5_844",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_843",
+            "target": "Depth5_846",
+            "weight": 1
+        }
+    ],
+    "5": [
+        {
+            "source": "Depth2_19",
+            "target": "Depth2_18",
+            "weight": 1
+        },
+        {
+            "source": "Depth2_17",
+            "target": "Depth2_18",
+            "weight": 1
+        },
+        {
+            "source": "Depth2_17",
+            "target": "Depth2_19",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_13",
+            "target": "Depth3_23",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_52",
+            "target": "Depth3_35",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_35",
+            "target": "Depth3_42",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_56",
+            "target": "Depth3_71",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_56",
+            "target": "Depth3_91",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_104",
+            "target": "Depth4_102",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_186",
+            "target": "Depth4_181",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_212",
+            "target": "Depth4_217",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_269",
+            "target": "Depth4_273",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_273",
+            "target": "Depth4_271",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_269",
+            "target": "Depth4_271",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_312",
+            "target": "Depth4_315",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_386",
+            "target": "Depth4_382",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_380",
+            "target": "Depth4_382",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_505",
+            "target": "Depth4_500",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_15",
+            "target": "Depth5_12",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_42",
+            "target": "Depth5_44",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_72",
+            "target": "Depth5_74",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_99",
+            "target": "Depth5_98",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_126",
+            "target": "Depth5_129",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_160",
+            "target": "Depth5_159",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_156",
+            "target": "Depth5_160",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_183",
+            "target": "Depth5_184",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_195",
+            "target": "Depth5_194",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_214",
+            "target": "Depth5_212",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_222",
+            "target": "Depth5_218",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_229",
+            "target": "Depth5_231",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_242",
+            "target": "Depth5_244",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_242",
+            "target": "Depth5_245",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_245",
+            "target": "Depth5_244",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_257",
+            "target": "Depth5_256",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_273",
+            "target": "Depth5_274",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_276",
+            "target": "Depth5_274",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_276",
+            "target": "Depth5_273",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_332",
+            "target": "Depth5_328",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_387",
+            "target": "Depth5_384",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_384",
+            "target": "Depth5_386",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_474",
+            "target": "Depth5_477",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_474",
+            "target": "Depth5_476",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_536",
+            "target": "Depth5_535",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_651",
+            "target": "Depth5_653",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_651",
+            "target": "Depth5_650",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_650",
+            "target": "Depth5_653",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_714",
+            "target": "Depth5_712",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_712",
+            "target": "Depth5_710",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_710",
+            "target": "Depth5_714",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1602",
+            "target": "Depth5_1601",
+            "weight": 1
+        }
+    ],
+    "6": [
+        {
+            "source": "Depth3_74",
+            "target": "Depth3_65",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_102",
+            "target": "Depth3_86",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_86",
+            "target": "Depth3_94",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_121",
+            "target": "Depth3_113",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_113",
+            "target": "Depth3_131",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_125",
+            "target": "Depth3_134",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_142",
+            "target": "Depth3_134",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_466",
+            "target": "Depth4_465",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_496",
+            "target": "Depth4_491",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_496",
+            "target": "Depth4_492",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_491",
+            "target": "Depth4_492",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_538",
+            "target": "Depth4_535",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_646",
+            "target": "Depth4_647",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_648",
+            "target": "Depth4_647",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_679",
+            "target": "Depth4_681",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_679",
+            "target": "Depth4_687",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_724",
+            "target": "Depth4_727",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_744",
+            "target": "Depth4_740",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_748",
+            "target": "Depth4_740",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_774",
+            "target": "Depth4_773",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_492",
+            "target": "Depth5_489",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_490",
+            "target": "Depth5_489",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_492",
+            "target": "Depth5_490",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_520",
+            "target": "Depth5_523",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_523",
+            "target": "Depth5_521",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_527",
+            "target": "Depth5_526",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_551",
+            "target": "Depth5_552",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_569",
+            "target": "Depth5_571",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_602",
+            "target": "Depth5_603",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_629",
+            "target": "Depth5_633",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_639",
+            "target": "Depth5_642",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_640",
+            "target": "Depth5_642",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_639",
+            "target": "Depth5_640",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_665",
+            "target": "Depth5_666",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_666",
+            "target": "Depth5_668",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_665",
+            "target": "Depth5_668",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_698",
+            "target": "Depth5_699",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_698",
+            "target": "Depth5_703",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_699",
+            "target": "Depth5_703",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_754",
+            "target": "Depth5_756",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_796",
+            "target": "Depth5_792",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_826",
+            "target": "Depth5_824",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_860",
+            "target": "Depth5_861",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_915",
+            "target": "Depth5_916",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_962",
+            "target": "Depth5_964",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_995",
+            "target": "Depth5_994",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_996",
+            "target": "Depth5_995",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_994",
+            "target": "Depth5_996",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1051",
+            "target": "Depth5_1049",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1053",
+            "target": "Depth5_1049",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1051",
+            "target": "Depth5_1053",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1064",
+            "target": "Depth5_1067",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1064",
+            "target": "Depth5_1065",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1065",
+            "target": "Depth5_1067",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1079",
+            "target": "Depth5_1082",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1097",
+            "target": "Depth5_1098",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1098",
+            "target": "Depth5_1095",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1095",
+            "target": "Depth5_1097",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1124",
+            "target": "Depth5_1128",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1154",
+            "target": "Depth5_1156",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1185",
+            "target": "Depth5_1189",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1184",
+            "target": "Depth5_1185",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1189",
+            "target": "Depth5_1184",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1690",
+            "target": "Depth5_1688",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1688",
+            "target": "Depth5_1691",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1691",
+            "target": "Depth5_1690",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1696",
+            "target": "Depth5_1694",
+            "weight": 1
+        }
+    ],
+    "7": [
+        {
+            "source": "Depth3_145",
+            "target": "Depth3_152",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_839",
+            "target": "Depth4_845",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_878",
+            "target": "Depth4_875",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_872",
+            "target": "Depth4_878",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_1009",
+            "target": "Depth4_1010",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_1078",
+            "target": "Depth4_1071",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_1122",
+            "target": "Depth4_1123",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_1122",
+            "target": "Depth4_1125",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_1162",
+            "target": "Depth4_1163",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_1163",
+            "target": "Depth4_1165",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_1165",
+            "target": "Depth4_1162",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1139",
+            "target": "Depth5_1141",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1143",
+            "target": "Depth5_1141",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1169",
+            "target": "Depth5_1170",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1173",
+            "target": "Depth5_1169",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1222",
+            "target": "Depth5_1221",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1220",
+            "target": "Depth5_1221",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1250",
+            "target": "Depth5_1253",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1252",
+            "target": "Depth5_1253",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1250",
+            "target": "Depth5_1252",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1280",
+            "target": "Depth5_1281",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1335",
+            "target": "Depth5_1331",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1336",
+            "target": "Depth5_1339",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1336",
+            "target": "Depth5_1337",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1339",
+            "target": "Depth5_1337",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1362",
+            "target": "Depth5_1365",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1525",
+            "target": "Depth5_1520",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1537",
+            "target": "Depth5_1535",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1533",
+            "target": "Depth5_1535",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1557",
+            "target": "Depth5_1560",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1561",
+            "target": "Depth5_1560",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1569",
+            "target": "Depth5_1571",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1618",
+            "target": "Depth5_1620",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1650",
+            "target": "Depth5_1649",
+            "weight": 1
+        }
+    ],
+    "8": [
+        {
+            "source": "Depth3_146",
+            "target": "Depth3_153",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_146",
+            "target": "Depth3_162",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_171",
+            "target": "Depth3_181",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_852",
+            "target": "Depth4_855",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_883",
+            "target": "Depth4_880",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_882",
+            "target": "Depth4_880",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_984",
+            "target": "Depth4_980",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_986",
+            "target": "Depth4_980",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1178",
+            "target": "Depth5_1174",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1174",
+            "target": "Depth5_1177",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1213",
+            "target": "Depth5_1210",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1227",
+            "target": "Depth5_1229",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1248",
+            "target": "Depth5_1246",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1259",
+            "target": "Depth5_1258",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1275",
+            "target": "Depth5_1277",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1370",
+            "target": "Depth5_1368",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1368",
+            "target": "Depth5_1369",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1369",
+            "target": "Depth5_1370",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1429",
+            "target": "Depth5_1428",
+            "weight": 1
+        }
+    ],
+    "9": [
+        {
+            "source": "Depth3_24",
+            "target": "Depth3_14",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_36",
+            "target": "Depth3_43",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_72",
+            "target": "Depth3_62",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_81",
+            "target": "Depth3_62",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_111",
+            "target": "Depth3_95",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_103",
+            "target": "Depth3_111",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_95",
+            "target": "Depth3_103",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_223",
+            "target": "Depth4_220",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_287",
+            "target": "Depth4_288",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_279",
+            "target": "Depth4_288",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_279",
+            "target": "Depth4_287",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_330",
+            "target": "Depth4_336",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_389",
+            "target": "Depth4_390",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_393",
+            "target": "Depth4_390",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_545",
+            "target": "Depth4_540",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_585",
+            "target": "Depth4_583",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_582",
+            "target": "Depth4_583",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_582",
+            "target": "Depth4_585",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_625",
+            "target": "Depth4_622",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_620",
+            "target": "Depth4_622",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_102",
+            "target": "Depth5_105",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_133",
+            "target": "Depth5_132",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_161",
+            "target": "Depth5_164",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_162",
+            "target": "Depth5_164",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_240",
+            "target": "Depth5_238",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_248",
+            "target": "Depth5_251",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_266",
+            "target": "Depth5_265",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_265",
+            "target": "Depth5_267",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_267",
+            "target": "Depth5_266",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_279",
+            "target": "Depth5_281",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_304",
+            "target": "Depth5_307",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_303",
+            "target": "Depth5_304",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_303",
+            "target": "Depth5_307",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_334",
+            "target": "Depth5_337",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_365",
+            "target": "Depth5_367",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_363",
+            "target": "Depth5_365",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_367",
+            "target": "Depth5_363",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_396",
+            "target": "Depth5_394",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_427",
+            "target": "Depth5_426",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_425",
+            "target": "Depth5_427",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_449",
+            "target": "Depth5_451",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_482",
+            "target": "Depth5_479",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_479",
+            "target": "Depth5_483",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_542",
+            "target": "Depth5_543",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_598",
+            "target": "Depth5_595",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_628",
+            "target": "Depth5_627",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_797",
+            "target": "Depth5_798",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_828",
+            "target": "Depth5_829",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_847",
+            "target": "Depth5_850",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_851",
+            "target": "Depth5_850",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_872",
+            "target": "Depth5_873",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_905",
+            "target": "Depth5_903",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_906",
+            "target": "Depth5_903",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_906",
+            "target": "Depth5_905",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1635",
+            "target": "Depth5_1634",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1635",
+            "target": "Depth5_1633",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1633",
+            "target": "Depth5_1634",
+            "weight": 1
+        }
+    ],
+    "10": [
+        {
+            "source": "Depth3_163",
+            "target": "Depth3_154",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_172",
+            "target": "Depth3_182",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_653",
+            "target": "Depth4_656",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_653",
+            "target": "Depth4_657",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_656",
+            "target": "Depth4_657",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_735",
+            "target": "Depth4_736",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_939",
+            "target": "Depth4_944",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_1053",
+            "target": "Depth4_1058",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_1058",
+            "target": "Depth4_1054",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_1053",
+            "target": "Depth4_1054",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_1105",
+            "target": "Depth4_1102",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_866",
+            "target": "Depth5_863",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_888",
+            "target": "Depth5_891",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1029",
+            "target": "Depth5_1033",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1113",
+            "target": "Depth5_1109",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1109",
+            "target": "Depth5_1110",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1319",
+            "target": "Depth5_1318",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1320",
+            "target": "Depth5_1318",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1373",
+            "target": "Depth5_1374",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1406",
+            "target": "Depth5_1409",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1434",
+            "target": "Depth5_1431",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1433",
+            "target": "Depth5_1431",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1439",
+            "target": "Depth5_1436",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1456",
+            "target": "Depth5_1459",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1487",
+            "target": "Depth5_1486",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1548",
+            "target": "Depth5_1546",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1545",
+            "target": "Depth5_1546",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1579",
+            "target": "Depth5_1581",
+            "weight": 1
+        }
+    ],
+    "11": [
+        {
+            "source": "Depth3_194",
+            "target": "Depth3_185",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_175",
+            "target": "Depth3_185",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_175",
+            "target": "Depth3_194",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_1025",
+            "target": "Depth4_1022",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_1132",
+            "target": "Depth4_1133",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1446",
+            "target": "Depth5_1449",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1530",
+            "target": "Depth5_1526",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1563",
+            "target": "Depth5_1564",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1567",
+            "target": "Depth5_1563",
+            "weight": 1
+        }
+    ],
+    "12": [
+        {
+            "source": "Depth3_15",
+            "target": "Depth3_25",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_44",
+            "target": "Depth3_54",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_57",
+            "target": "Depth4_62",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_62",
+            "target": "Depth4_61",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_123",
+            "target": "Depth4_126",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_120",
+            "target": "Depth4_123",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_120",
+            "target": "Depth4_126",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_236",
+            "target": "Depth4_235",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_238",
+            "target": "Depth4_235",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_339",
+            "target": "Depth4_341",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_22",
+            "target": "Depth5_25",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_53",
+            "target": "Depth5_51",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_166",
+            "target": "Depth5_169",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_285",
+            "target": "Depth5_287",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_287",
+            "target": "Depth5_284",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_311",
+            "target": "Depth5_312",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_376",
+            "target": "Depth5_342",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_377",
+            "target": "Depth5_376",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_399",
+            "target": "Depth5_398",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_398",
+            "target": "Depth5_402",
+            "weight": 1
+        }
+    ],
+    "13": [
+        {
+            "source": "Depth3_75",
+            "target": "Depth3_84",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_92",
+            "target": "Depth3_84",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_75",
+            "target": "Depth3_92",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_96",
+            "target": "Depth3_104",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_122",
+            "target": "Depth3_132",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_122",
+            "target": "Depth3_115",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_132",
+            "target": "Depth3_115",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_426",
+            "target": "Depth4_427",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_476",
+            "target": "Depth4_471",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_470",
+            "target": "Depth4_471",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_518",
+            "target": "Depth4_517",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_516",
+            "target": "Depth4_518",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_593",
+            "target": "Depth4_591",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_589",
+            "target": "Depth4_591",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_667",
+            "target": "Depth4_659",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_689",
+            "target": "Depth4_691",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_750",
+            "target": "Depth4_749",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_751",
+            "target": "Depth4_749",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_556",
+            "target": "Depth5_557",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_574",
+            "target": "Depth5_577",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_577",
+            "target": "Depth5_578",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_578",
+            "target": "Depth5_574",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_585",
+            "target": "Depth5_588",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_584",
+            "target": "Depth5_588",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_606",
+            "target": "Depth5_607",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_608",
+            "target": "Depth5_607",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_606",
+            "target": "Depth5_608",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_618",
+            "target": "Depth5_615",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_618",
+            "target": "Depth5_617",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_615",
+            "target": "Depth5_617",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_636",
+            "target": "Depth5_637",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_638",
+            "target": "Depth5_637",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_636",
+            "target": "Depth5_638",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_655",
+            "target": "Depth5_658",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_686",
+            "target": "Depth5_687",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_715",
+            "target": "Depth5_719",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_715",
+            "target": "Depth5_717",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_719",
+            "target": "Depth5_717",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_740",
+            "target": "Depth5_741",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_774",
+            "target": "Depth5_769",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_770",
+            "target": "Depth5_769",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_774",
+            "target": "Depth5_770",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_782",
+            "target": "Depth5_786",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_832",
+            "target": "Depth5_833",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_835",
+            "target": "Depth5_832",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_833",
+            "target": "Depth5_835",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_870",
+            "target": "Depth5_871",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_893",
+            "target": "Depth5_894",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_946",
+            "target": "Depth5_948",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1009",
+            "target": "Depth5_1013",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1010",
+            "target": "Depth5_1009",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1010",
+            "target": "Depth5_1013",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1041",
+            "target": "Depth5_1039",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1101",
+            "target": "Depth5_1099",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1099",
+            "target": "Depth5_1100",
+            "weight": 1
+        }
+    ],
+    "14": [
+        {
+            "source": "Depth3_136",
+            "target": "Depth3_143",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_173",
+            "target": "Depth3_192",
+            "weight": 1
+        },
+        {
+            "source": "Depth3_203",
+            "target": "Depth3_196",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_820",
+            "target": "Depth4_821",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_821",
+            "target": "Depth4_824",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_820",
+            "target": "Depth4_824",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_955",
+            "target": "Depth4_950",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_1004",
+            "target": "Depth4_1006",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_1032",
+            "target": "Depth4_1036",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_1065",
+            "target": "Depth4_1059",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_1117",
+            "target": "Depth4_1112",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_1117",
+            "target": "Depth4_1116",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_1142",
+            "target": "Depth4_1146",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_1170",
+            "target": "Depth4_1174",
+            "weight": 1
+        },
+        {
+            "source": "Depth4_1179",
+            "target": "Depth4_1180",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1085",
+            "target": "Depth5_1087",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1114",
+            "target": "Depth5_1115",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1129",
+            "target": "Depth5_1131",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1192",
+            "target": "Depth5_1191",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1260",
+            "target": "Depth5_1262",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1295",
+            "target": "Depth5_1294",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1322",
+            "target": "Depth5_1321",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1377",
+            "target": "Depth5_1379",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1405",
+            "target": "Depth5_1404",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1425",
+            "target": "Depth5_1424",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1484",
+            "target": "Depth5_1485",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1483",
+            "target": "Depth5_1484",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1483",
+            "target": "Depth5_1485",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1495",
+            "target": "Depth5_1492",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1584",
+            "target": "Depth5_1585",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1586",
+            "target": "Depth5_1584",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1585",
+            "target": "Depth5_1586",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1596",
+            "target": "Depth5_1597",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1596",
+            "target": "Depth5_1594",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1597",
+            "target": "Depth5_1594",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1612",
+            "target": "Depth5_1609",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1612",
+            "target": "Depth5_1608",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1608",
+            "target": "Depth5_1609",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1617",
+            "target": "Depth5_1614",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1625",
+            "target": "Depth5_1623",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1638",
+            "target": "Depth5_1640",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1654",
+            "target": "Depth5_1653",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1676",
+            "target": "Depth5_1674",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1676",
+            "target": "Depth5_1675",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1674",
+            "target": "Depth5_1675",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1683",
+            "target": "Depth5_1684",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1719",
+            "target": "Depth5_1718",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1722",
+            "target": "Depth5_1719",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1718",
+            "target": "Depth5_1722",
+            "weight": 1
+        },
+        {
+            "source": "Depth5_1732",
+            "target": "Depth5_1730",
+            "weight": 1
+        }
+    ]
+}
